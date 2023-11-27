@@ -677,7 +677,14 @@
             }
         }
     }
-    if (document.querySelector("[data-fp]")) modules_flsModules.fullpage = new FullPage(document.querySelector("[data-fp]"), "");
+    if (document.querySelector("[data-fp]")) {
+        const breakpoint = window.matchMedia("(min-width: 767.98px)");
+        const checker = function() {
+            if (breakpoint.matches) return modules_flsModules.fullpage = new FullPage(document.querySelector("[data-fp]"), ""); else return;
+        };
+        breakpoint.addEventListener("change", checker);
+        checker();
+    }
     let addWindowScrollEvent = false;
     setTimeout((() => {
         if (addWindowScrollEvent) {

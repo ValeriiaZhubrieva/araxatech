@@ -679,8 +679,15 @@
     }
     if (document.querySelector("[data-fp]")) {
         const breakpoint = window.matchMedia("(min-width: 767.98px)");
+        const mainDataAtr = document.querySelector("[data-fp]");
         const checker = function() {
-            if (breakpoint.matches) return modules_flsModules.fullpage = new FullPage(document.querySelector("[data-fp]"), ""); else return;
+            if (breakpoint.matches) {
+                mainDataAtr.setAttribute("data-fp", "");
+                return modules_flsModules.fullpage = new FullPage(document.querySelector("[data-fp]"), "");
+            } else {
+                mainDataAtr.removeAttribute("data-fp");
+                return;
+            }
         };
         breakpoint.addEventListener("change", checker);
         checker();

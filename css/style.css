@@ -1624,12 +1624,24 @@ body {
     background: rgba(0, 74, 154, 0.3);
   }
 
+  .promo {
+    min-height: 100vh;
+  }
+
   .promo__images {
     padding-right: 1.5625rem;
   }
 
   .promo__img-mini {
     max-width: 12.125rem;
+  }
+
+  .information {
+    min-height: 100vh;
+  }
+
+  .helps {
+    min-height: 100vh;
   }
 }
 

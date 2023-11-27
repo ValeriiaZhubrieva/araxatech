@@ -8,8 +8,8 @@
 	<!-- <style>body{opacity: 0;}</style> -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Ubuntu:wght@700&display=swap&_v=20231127093909" rel="stylesheet">
-	<link rel="stylesheet" href="css/style.min.css?_v=20231127093909">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Ubuntu:wght@700&display=swap&_v=20231127163135" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.min.css?_v=20231127163135">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,9 +25,90 @@
 					</a>
 					<div class="header__menu menu">
 						<nav class="menu__body">
-							<button type="button" class="menu__button">
-								Nautilus
-							</button>
+							<div class="menu__bigmenu bigmenu">
+								<button type="button" class="bigmenu__button">
+									Nautilus
+								</button>
+								<div class="bigmenu__dropdown">
+									<ul class="bigmenu__list">
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												Overview
+											</a>
+										</li>
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												Reports
+											</a>
+										</li>
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												Startups
+											</a>
+										</li>
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												Benefits
+											</a>
+										</li>
+										<li class="bigmenu__item">
+
+										</li>
+									</ul>
+									<ul class="bigmenu__list">
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												TX Browser
+											</a>
+										</li>
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												Expansion
+											</a>
+										</li>
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												Technology
+											</a>
+										</li>
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												Simulator
+											</a>
+										</li>
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												Migration
+											</a>
+										</li>
+									</ul>
+									<ul class="bigmenu__list">
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												API
+											</a>
+										</li>
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												Test Engine
+											</a>
+										</li>
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												WL Wallets
+											</a>
+										</li>
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												Abstraction
+											</a>
+										</li>
+										<li class="bigmenu__item">
+
+										</li>
+									</ul>
+								</div>
+							</div>
 							<ul class="menu__list">
 								<li class="menu__item">
 									<a href="#" class="menu__link">
@@ -48,31 +129,76 @@
 									<button type="button" class="menu__link menu__btn-arrow">
 										Company
 									</button>
+									<div class="menu__dropdown submenu">
+										<ul class="submenu__list">
+											<li class="submenu__item">
+												<a href="#" class="submenu__link">
+													About us
+												</a>
+											</li>
+											<li class="submenu__item">
+												<a href="#" class="submenu__link">
+													Careers
+												</a>
+											</li>
+										</ul>
+									</div>
 								</li>
 							</ul>
 							<a href="#" class="menu__link-demo">
 								Book a Demo
 							</a>
-							<a href="#" class="menu__user">
-								<span class="menu__user-icon">
-									<svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M5.99959 6.0921C5.17153 6.0921 4.46433 5.79894 3.878 5.21262C3.29168 4.62629 2.99852 3.9191 2.99852 3.09103C2.99852 2.26296 3.29168 1.55648 3.878 0.971583C4.46433 0.386686 5.17153 0.0942383 5.99959 0.0942383C6.82766 0.0942383 7.53486 0.386686 8.12118 0.971583C8.70751 1.55648 9.00067 2.26296 9.00067 3.09103C9.00067 3.9191 8.70751 4.62629 8.12118 5.21262C7.53486 5.79894 6.82766 6.0921 5.99959 6.0921ZM0.142578 12.0942V9.94141C0.142578 9.51035 0.254097 9.11416 0.477134 8.75282C0.700159 8.39149 0.996468 8.11574 1.36606 7.92557C2.11238 7.55383 2.87196 7.27432 3.64482 7.08703C4.41767 6.89973 5.2026 6.80609 5.99959 6.80609C6.80205 6.80609 7.58976 6.89902 8.36272 7.08488C9.1357 7.27076 9.8925 7.54956 10.6331 7.9213C11.0027 8.11106 11.299 8.38622 11.5221 8.74675C11.7451 9.10731 11.8566 9.50545 11.8566 9.94118V12.0942H0.142578Z" fill="white" />
-									</svg>
-								</span>
-								<span class="menu__user-line">
-									<svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M1.86426 12.2895V10.7729H14.1353V12.2895H1.86426ZM1.86426 8.85257V7.3359H14.1353V8.85257H1.86426ZM1.86426 5.41562V3.89894H14.1353V5.41562H1.86426Z" fill="white" />
-									</svg>
-								</span>
-							</a>
+							<div class="menu__user user-block">
+								<button type="button" class="user-block__btn">
+									<span class="user-block__icon">
+										<svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M5.99959 6.0921C5.17153 6.0921 4.46433 5.79894 3.878 5.21262C3.29168 4.62629 2.99852 3.9191 2.99852 3.09103C2.99852 2.26296 3.29168 1.55648 3.878 0.971583C4.46433 0.386686 5.17153 0.0942383 5.99959 0.0942383C6.82766 0.0942383 7.53486 0.386686 8.12118 0.971583C8.70751 1.55648 9.00067 2.26296 9.00067 3.09103C9.00067 3.9191 8.70751 4.62629 8.12118 5.21262C7.53486 5.79894 6.82766 6.0921 5.99959 6.0921ZM0.142578 12.0942V9.94141C0.142578 9.51035 0.254097 9.11416 0.477134 8.75282C0.700159 8.39149 0.996468 8.11574 1.36606 7.92557C2.11238 7.55383 2.87196 7.27432 3.64482 7.08703C4.41767 6.89973 5.2026 6.80609 5.99959 6.80609C6.80205 6.80609 7.58976 6.89902 8.36272 7.08488C9.1357 7.27076 9.8925 7.54956 10.6331 7.9213C11.0027 8.11106 11.299 8.38622 11.5221 8.74675C11.7451 9.10731 11.8566 9.50545 11.8566 9.94118V12.0942H0.142578Z" fill="white" />
+										</svg>
+									</span>
+									<span class="user-block__lines">
+										<svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M1.86426 12.2895V10.7729H14.1353V12.2895H1.86426ZM1.86426 8.85257V7.3359H14.1353V8.85257H1.86426ZM1.86426 5.41562V3.89894H14.1353V5.41562H1.86426Z" fill="white" />
+										</svg>
+									</span>
+								</button>
+								<div class="user-block__dropdown">
+									<ul class="user-block__list">
+										<li class="user-block__item">
+											<a href="#" class="user-block__link user-block__link--arrow">
+												Sign-up
+											</a>
+										</li>
+										<li class="user-block__item">
+											<a href="#" class="user-block__link">
+												Log in
+											</a>
+										</li>
+										<li class="user-block__item">
+											<a href="#" class="user-block__link">
+												Account
+											</a>
+										</li>
+										<li class="user-block__item">
+											<a href="#" class="user-block__link">
+												Payment hst.
+											</a>
+										</li>
+										<li class="user-block__item">
+											<a href="#" class="user-block__link">
+												Get Started
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
 						</nav>
 						<button type="button" class="menu__icon icon-menu"><span></span></button>
 					</div>
 				</div>
 			</div>
 		</header>
-		<main data-fp data-fullscreen class="page">
-			<section data-fp-section data-fullscreen class="promo">
+		<main data-fp class="page">
+			<section data-fp-section class="promo">
 				<div class="promo__container">
 					<div class="promo__body">
 						<div class="promo__content">
@@ -110,7 +236,7 @@
 					</div>
 				</div>
 			</section>
-			<section data-fp-section data-fullscreen class="information">
+			<section data-fp-section class="information">
 				<div class="information__container">
 					<div data-tabs class="information__tabs information-tabs">
 						<nav data-tabs-titles class="information-tabs__navigation">
@@ -297,7 +423,7 @@
 					</div>
 				</div>
 			</section>
-			<section data-fp-section data-fullscreen class="helps" style="background: url('img/helps/bg-1.jpg') center/cover no-repeat">
+			<section data-fp-section class="helps" style="background: url('img/helps/bg-1.jpg') center/cover no-repeat">
 				<div class="helps__container">
 					<div class="helps__body helps__body--right">
 						<h4 class="helps__subtitle">
@@ -346,7 +472,7 @@
 					</div>
 				</div>
 			</section>
-			<section data-fp-section data-fullscreen class="helps" style="background: url('img/helps/bg-2.jpg') center/cover no-repeat">
+			<section data-fp-section class="helps" style="background: url('img/helps/bg-2.jpg') center/cover no-repeat">
 				<div class="helps__container">
 					<div class="helps__body">
 						<h4 class="helps__subtitle">
@@ -395,7 +521,7 @@
 					</div>
 				</div>
 			</section>
-			<section data-fp-section data-fullscreen class="helps" style="background: url('img/helps/bg-3.jpg') center/cover no-repeat">
+			<section data-fp-section class="helps" style="background: url('img/helps/bg-3.jpg') center/cover no-repeat">
 				<div class="helps__container">
 					<div class="helps__body helps__body--right">
 						<h4 class="helps__subtitle">
@@ -436,7 +562,7 @@
 					</div>
 				</div>
 			</section>
-			<section data-fp-section data-fullscreen class="helps" style="background: url('img/helps/bg-4.jpg') center/cover no-repeat">
+			<section data-fp-section class="helps" style="background: url('img/helps/bg-4.jpg') center/cover no-repeat">
 				<div class="helps__container">
 					<div class="helps__body">
 						<h4 class="helps__subtitle">
@@ -485,7 +611,7 @@
 					</div>
 				</div>
 			</section>
-			<footer data-fp-section data-fullscreen class="footer">
+			<footer data-fp-section class="footer">
 				<div class="footer__top want">
 					<div class="want__container">
 						<div class="want__body">
@@ -677,7 +803,7 @@
 			</footer>
 		</main>
 	</div>
-	<script src="js/app.min.js?_v=20231127093909"></script>
+	<script src="js/app.min.js?_v=20231127163135"></script>
 </body>
 
 </html>

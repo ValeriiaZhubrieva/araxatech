@@ -689,7 +689,6 @@
                 return;
             }
         };
-        breakpoint.addEventListener("change", checker);
         checker();
     }
     let addWindowScrollEvent = false;

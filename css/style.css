@@ -72,6 +72,10 @@ body {
   background: #000C24;
 }
 
+body ::-webkit-scrollbar {
+  width: 0;
+}
+
 .lock body {
   overflow: hidden;
   -ms-touch-action: none;
@@ -218,8 +222,6 @@ body {
           flex: 0 0 0.9375rem;
   border-radius: 0.625rem;
   background-color: rgba(0, 12, 36, 0.5);
-  -webkit-box-shadow: 0rem 0rem 0.1875rem #184390, 0 0 1.875rem rgba(255, 255, 255, 0.8);
-          box-shadow: 0rem 0rem 0.1875rem #184390, 0 0 1.875rem rgba(255, 255, 255, 0.8);
   border: 0.0625rem solid rgba(255, 255, 255, 0.5);
   opacity: 0.6;
   -webkit-transition: opacity 0.4s ease-in-out 0s, background-color 0.4s ease-in-out 0s, -webkit-transform 0.4s ease-in-out 0s, -webkit-box-shadow 0.4s ease-in-out 0s;
@@ -231,11 +233,6 @@ body {
 .fp-bullets .fp-bullet-active {
   opacity: 1;
   background-color: #184390;
-  -webkit-transform: translate3D(-0.1875rem, -0.0625rem, 0);
-      -ms-transform: translate3D(-0.1875rem, -0.0625rem, 0);
-          transform: translate3D(-0.1875rem, -0.0625rem, 0);
-  -webkit-box-shadow: 0.3125rem 0.125rem 0.1875rem #000C24, 0 0 1.875rem rgba(255, 255, 255, 0.8);
-          box-shadow: 0.3125rem 0.125rem 0.1875rem #000C24, 0 0 1.875rem rgba(255, 255, 255, 0.8);
 }
 
 [class*=-ibg] {

@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Ubuntu:wght@700&display=swap&_v=20231203123111" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.min.css?_v=20231203123111">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header  ">
+			<div class="header__container">
+				<div class="header__body">
+					<a href="#" class="header__logo">
+						<img src="img/logo.svg" alt="logo">
+					</a>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<div class="menu__bigmenu bigmenu">
+								<button type="button" class="bigmenu__button">
+									Nautilus
+								</button>
+								<div class="bigmenu__dropdown">
+									<ul class="bigmenu__list">
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												Overview
+											</a>
+										</li>
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												Reports
+											</a>
+										</li>
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												Startups
+											</a>
+										</li>
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												Benefits
+											</a>
+										</li>
+										<li class="bigmenu__item">
+
+										</li>
+									</ul>
+									<ul class="bigmenu__list">
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												TX Browser
+											</a>
+										</li>
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												Expansion
+											</a>
+										</li>
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												Technology
+											</a>
+										</li>
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												Simulator
+											</a>
+										</li>
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												Migration
+											</a>
+										</li>
+									</ul>
+									<ul class="bigmenu__list">
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												API
+											</a>
+										</li>
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												Test Engine
+											</a>
+										</li>
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												WL Wallets
+											</a>
+										</li>
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												Abstraction
+											</a>
+										</li>
+										<li class="bigmenu__item">
+
+										</li>
+									</ul>
+								</div>
+							</div>
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="#" class="menu__link">
+										Startups Acc.
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">
+										Pricing
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">
+										Blog
+									</a>
+								</li>
+								<li class="menu__item">
+									<button type="button" class="menu__link menu__btn-arrow">
+										Company
+									</button>
+									<div class="menu__dropdown submenu">
+										<ul class="submenu__list">
+											<li class="submenu__item">
+												<a href="#" class="submenu__link">
+													About us
+												</a>
+											</li>
+											<li class="submenu__item">
+												<a href="#" class="submenu__link">
+													Careers
+												</a>
+											</li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<a href="#" class="menu__link-demo">
+								Book a Demo
+							</a>
+							<div class="menu__user user-block">
+								<button type="button" class="user-block__btn">
+									<span class="user-block__icon">
+										<svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M5.99959 6.0921C5.17153 6.0921 4.46433 5.79894 3.878 5.21262C3.29168 4.62629 2.99852 3.9191 2.99852 3.09103C2.99852 2.26296 3.29168 1.55648 3.878 0.971583C4.46433 0.386686 5.17153 0.0942383 5.99959 0.0942383C6.82766 0.0942383 7.53486 0.386686 8.12118 0.971583C8.70751 1.55648 9.00067 2.26296 9.00067 3.09103C9.00067 3.9191 8.70751 4.62629 8.12118 5.21262C7.53486 5.79894 6.82766 6.0921 5.99959 6.0921ZM0.142578 12.0942V9.94141C0.142578 9.51035 0.254097 9.11416 0.477134 8.75282C0.700159 8.39149 0.996468 8.11574 1.36606 7.92557C2.11238 7.55383 2.87196 7.27432 3.64482 7.08703C4.41767 6.89973 5.2026 6.80609 5.99959 6.80609C6.80205 6.80609 7.58976 6.89902 8.36272 7.08488C9.1357 7.27076 9.8925 7.54956 10.6331 7.9213C11.0027 8.11106 11.299 8.38622 11.5221 8.74675C11.7451 9.10731 11.8566 9.50545 11.8566 9.94118V12.0942H0.142578Z" fill="white" />
+										</svg>
+									</span>
+									<span class="user-block__lines">
+										<svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M1.86426 12.2895V10.7729H14.1353V12.2895H1.86426ZM1.86426 8.85257V7.3359H14.1353V8.85257H1.86426ZM1.86426 5.41562V3.89894H14.1353V5.41562H1.86426Z" fill="white" />
+										</svg>
+									</span>
+								</button>
+								<div class="user-block__dropdown">
+									<ul class="user-block__list">
+										<li class="user-block__item">
+											<a href="#" class="user-block__link user-block__link--arrow">
+												Sign-up
+											</a>
+										</li>
+										<li class="user-block__item">
+											<a href="#" class="user-block__link">
+												Log in
+											</a>
+										</li>
+										<li class="user-block__item">
+											<a href="#" class="user-block__link">
+												Account
+											</a>
+										</li>
+										<li class="user-block__item">
+											<a href="#" class="user-block__link">
+												Payment hst.
+											</a>
+										</li>
+										<li class="user-block__item">
+											<a href="#" class="user-block__link">
+												Get Started
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</nav>
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="innerpage">
+			<div class="innerpage__top">
+				<div class="innerpage__head">
+					<div class="innerpage__container">
+						<div class="innerpage__breadcrumbs breadcrumbs">
+							<a href="#" class="breadcrumbs__link">Home</a>
+							<a href="#" class="breadcrumbs__link">Nautilus</a>
+							<span class="breadcrumbs__current">API</span>
+						</div>
+					</div>
+				</div>
+				<div class="innerpage__container">
+					<h1 class="innerpage__title">
+						API
+					</h1>
+					<div class="innerpage__text">
+						<p>
+							Nautilus system behavior is controlled using API calls. This way you can register new
+							cards, new card products, control handling of different currencies and manually request
+							transaction data.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="innerpage__inner">
+				<div class="innerpage__container">
+					<div class="innerpage__body">
+						<aside class="innerpage__aside aside-block">
+							<nav class="aside-block__menu">
+								<ul class="aside-block__list">
+									<li class="aside-block__item">
+										<a data-goto="#section-2" data-goto-top="80" href="#" class="aside-block__link">
+											How to use the API – Big Picture
+										</a>
+									</li>
+									<li class="aside-block__item">
+										<a data-goto="#section-3" data-goto-top="80" href="#" class="aside-block__link">
+											Card Products
+										</a>
+									</li>
+									<li class="aside-block__item">
+										<a data-goto="#section-4" data-goto-top="80" href="#" class="aside-block__link">
+											API Security
+										</a>
+									</li>
+									<li class="aside-block__item">
+										<a data-goto="#section-5" data-goto-top="80" href="#" class="aside-block__link">
+											AddCard
+										</a>
+									</li>
+									<li class="aside-block__item">
+										<a data-goto="#section-6" data-goto-top="80" href="#" class="aside-block__link">
+											AddCardProduct
+										</a>
+									</li>
+									<li class="aside-block__item">
+										<a href="#" class="aside-block__link">
+											AddTokenToCard
+										</a>
+									</li>
+									<li class="aside-block__item">
+										<a href="#" class="aside-block__link">
+											GenerateApiToken
+										</a>
+									</li>
+									<li class="aside-block__item">
+										<a href="#" class="aside-block__link">
+											GetRawTransaction
+										</a>
+									</li>
+									<li class="aside-block__item">
+										<a href="#" class="aside-block__link">
+											ModifyCard
+										</a>
+									</li>
+									<li class="aside-block__item">
+										<a href="#" class="aside-block__link">
+											ModifyCardProduct
+										</a>
+									</li>
+									<li class="aside-block__item">
+										<a href="#" class="aside-block__link">
+											PushTransaction
+										</a>
+									</li>
+									<li class="aside-block__item">
+										<a href="#" class="aside-block__link">
+											Status Codes
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</aside>
+						<div class="innerpage__content">
+							<section id="section-1" data-gallery class="innerpage__section api-section">
+								<a href="img/inner-page/image-1.jpg" class="api-section__big-img">
+									<picture><source srcset="img/inner-page/image-1.webp" type="image/webp"><img src="img/inner-page/image-1.jpg" alt="1"></picture>
+								</a>
+							</section>
+							<section id="section-2" class="innerpage__section api-section">
+								<div class="api-section__inner">
+									<h2>
+										How to use the API – Big Picture
+									</h2>
+									<h4>
+										Before you begin, make sure you have done the following
+									</h4>
+									<ul>
+										<li>
+											Obtain API access URL, username, password and secret key for accessing API
+										</li>
+										<li>
+											Depending on the language you plan to use you might want to generate
+											communication classes and methods (ATS API is exposed as WSDL web service,
+											so
+											there are tools for many languages which can be used to automatically
+											generate
+											code for consuming it – to get WSDL simply append “?wsdl” to API access URL)
+										</li>
+									</ul>
+								</div>
+							</section>
+							<section id="section-3" class="innerpage__section api-section">
+								<div class="api-section__slider-block">
+									<div class="api-section__slider swiper">
+										<div data-gallery class="api-section__wrapper swiper-wrapper">
+											<a href="img/inner-page/image-2.jpg" class="api-section__slide swiper-slide">
+												<picture><source srcset="img/inner-page/image-2.webp" type="image/webp"><img src="img/inner-page/image-2.jpg" alt="2"></picture>
+											</a>
+											<a href="img/inner-page/image-3.jpg" class="api-section__slide swiper-slide">
+												<picture><source srcset="img/inner-page/image-3.webp" type="image/webp"><img src="img/inner-page/image-3.jpg" alt="3"></picture>
+											</a>
+											<a href="img/inner-page/image-4.jpg" class="api-section__slide swiper-slide">
+												<picture><source srcset="img/inner-page/image-4.webp" type="image/webp"><img src="img/inner-page/image-4.jpg" alt="4"></picture>
+											</a>
+											<a href="img/inner-page/image-1.jpg" class="api-section__slide swiper-slide">
+												<picture><source srcset="img/inner-page/image-1.webp" type="image/webp"><img src="img/inner-page/image-1.jpg" alt="1"></picture>
+											</a>
+										</div>
+									</div>
+									<div class="api-section__novigation">
+										<button type="button" class="swiper-button-prev">
+											<svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M0.757298 6.10442L5.91671 0.945007L7.2428 2.27109L3.40946 6.10442L7.2428 9.93776L5.91671 11.2638L0.757298 6.10442Z" fill="#09245A" />
+											</svg>
+										</button>
+										<button type="button" class="swiper-button-next">
+											<svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M7.24276 5.99995L2.08335 11.1594L0.757263 9.83328L4.5906 5.99995L0.757263 2.16661L2.08335 0.84053L7.24276 5.99995Z" fill="#09245A" />
+											</svg>
+										</button>
+									</div>
+								</div>
+							</section>
+							<section id="section-4" class="innerpage__section api-section">
+								<div class="api-section__inner">
+									<h2>
+										API Security
+									</h2>
+									<h4>
+										Before you begin, make sure you have done the following
+									</h4>
+									<p>
+										In order to ensure security and to be certain that each API call indeed
+										originated from you, even if 3rd party proxy services are used, ATS uses two
+										parameters for authenticating each API request:
+									</p>
+									<ul>
+										<li>
+											ApiToken
+										</li>
+										<li>
+											SecurityToken
+										</li>
+									</ul>
+									<p>
+										ApiToken is generated by ATS on your behalf. To obtain the ApiToken, you need to
+										authenticate yourself by providing the assigned username and password to
+										GenerateApiToken method. Each time, a unique ApiToken is returned by ATS, and
+										each ApiToken can be used only once – ie. for each API call you first need to
+										generate an ApiToken.
+										SecurityToken is generated by you as SHA256 hash of a string which is the
+										concatenation of the ApiToken and the secret key (which you should receive from
+										AraxaTech). This way, the secret key is never transmitted in clear text from you
+										to ATS, and one SecurityToken cannot be used twice, since the ApiToken is
+										constantly changing. This way 3rd party proxy services (or somebody else spying
+										on the traffic between ATS and you) cannot impersonate you.
+									</p>
+									<h5>
+										Example
+									</h5>
+									<code>
+										<ul>
+											<li>
+												let the Username be “user”, Password “password” and the SecretKey “ secret ”
+											</li>
+											<li>
+												Call GenerateApiToken with “user” and “password” as parameters; let's assume it returns string “638046298344343750@0344321b1d2a28b02e74fc3172e05ee4a781ac62049cc18e2017919b0c42816f” as ApiToken
+											</li>
+											<li>
+												Calculate SHA256 of “638046298344343750@0344321b1d2a28b02e74fc3172e05ee4a781ac62049cc18e2017919b0c42816fsecret” (note “secret” appended to ApiToken returned), resulting SecurityToken should be “c74f01d8c0e927281e4122934c52f7aa1422bbb36b6f6c11dc56a485687b1fb8” (result is a string where each byte of the resulting hash value is represented by two hexadecimal digits)
+											</li>
+											<li>
+												The pair of ApiToken = “638046298344343750@0344321b1d2a28b02e74fc3172e05ee4a781ac62049cc18e2017919b0c42816f”, and SecurityToken = “c74f01d8c0e927281e4122934c52f7aa1422bbb36b6f6c11dc56a485687b1fb8” can be used for authenticating next API call
+											</li>
+										</ul>
+									</code>
+								</div>
+							</section>
+							<section id="section-5" class="innerpage__section api-section">
+								<div class="api-section__inner">
+									<div class="api-section__row">
+										<picture><source srcset="img/inner-page/image-4.webp" type="image/webp"><img src="img/inner-page/image-4.jpg" alt="4"></picture>
+										<p>
+											ApiToken is generated by ATS on your behalf. To obtain the ApiToken, you
+											need to authenticate yourself by providing the assigned username and
+											password to GenerateApiToken method. Each time, a unique ApiToken is
+											returned by ATS, and each ApiToken can be used only once – ie. for each API
+											call you first need to generate an ApiToken.
+										</p>
+									</div>
+									<p>
+										SecurityToken is generated by you as SHA256 hash of a string which is the
+										concatenation of the ApiToken and the secret key (which you should receive from
+										AraxaTech). This way, the secret key is never transmitted in clear text from you
+										to ATS, and one SecurityToken cannot be used twice, since the ApiToken is
+										constantly changing. This way 3rd party proxy services (or somebody else spying
+										on the traffic between ATS and you) cannot impersonate you.
+									</p>
+								</div>
+							</section>
+							<section id="section-6" class="innerpage__section api-section">
+								<div class="api-section__inner">
+									<h2>
+										AddCardProduct
+									</h2>
+									<p>
+										This API call is used to create a new card product. It is convenient to pass ID
+										of card product on your side as Reference parameter (ATS will later return the
+										same reference, so you don’t need to do mapping with ATS IDs). The important
+										thing to note is that the card product name needs to be unique.
+									</p>
+									<table class="api-section__table">
+										<tbody>
+											<tr>
+												<th><strong>Input Field</strong></th>
+												<th><strong>Type</strong></th>
+												<th><strong>Description</strong></th>
+											</tr>
+											<tr>
+												<td><strong>ApiToken</strong></td>
+												<td>string</td>
+												<td>ApiToken as returned by GenerateApiToken</td>
+											</tr>
+											<tr>
+												<td><strong>SecurityToken</strong></td>
+												<td>string</td>
+												<td>SecurityToken generated by client as described in Security section
+												</td>
+											</tr>
+											<tr>
+												<td><strong>Name</strong></td>
+												<td>string</td>
+												<td>Product name. Be careful that names of products need to be unique.
+												</td>
+											</tr>
+											<tr>
+												<td><strong>Reference</strong></td>
+												<td>string</td>
+												<td>Card product reference as used in your system (for example product
+													ID).</td>
+											</tr>
+											<tr>
+												<td><strong>BillingCurrencies</strong></td>
+												<td>string[]</td>
+												<td>List of 3-letter ISO currency codes that this product will use as
+													its billing currencies. See discussion about billing currencies
+													above.</td>
+											</tr>
+											<tr>
+												<td><strong>DefaultBillingCurrency</strong></td>
+												<td>string</td>
+												<td>The currency to use as default billing currency when transaction
+													currency doesn’t match any other billing currency from the list.
+													NOTE: default billing currency needs to be included within
+													BillingCurrencies list as well.</td>
+											</tr>
+											<tr>
+												<td><strong>SettlingCurrencies</strong></td>
+												<td>string[]</td>
+												<td>SettlingCurrencies List of 3-letter ISO currency codes that this
+													product will use as its settling currencies. See discussion about
+													settling currencies above.</td>
+											</tr>
+											<tr>
+												<td><strong>DefaultSettlingCurrency</strong></td>
+												<td>string</td>
+												<td>The currency to use as default settling currency when transaction
+													currency doesn’t match any other settling currency from the list.
+													NOTE: default settling currency needs to be included within
+													SettlingCurrencies
+													list as well.</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</section>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__bottom">
+				<div class="footer__container">
+					<div class="footer__body">
+						<a href="#" class="footer__logo">
+							<img src="img/logo.svg" alt="logo">
+						</a>
+						<div class="footer__columns">
+							<div class="footer__col footer__col--first">
+								<div class="footer__col-title">
+									Nautilus
+								</div>
+								<ul class="footer__col-list">
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											Overview
+										</a>
+									</li>
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											Behefits
+										</a>
+									</li>
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											Technology
+										</a>
+									</li>
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											API
+										</a>
+									</li>
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											Reports
+										</a>
+									</li>
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											TX Browser
+										</a>
+									</li>
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											Simulator
+										</a>
+									</li>
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											Test Engine
+										</a>
+									</li>
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											Abstraction
+										</a>
+									</li>
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											Startups
+										</a>
+									</li>
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											Expansion
+										</a>
+									</li>
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											Migration
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="footer__col footer__col--two">
+								<div class="footer__col-title">
+									Startup Acc.
+								</div>
+								<div class="footer__links">
+									<a href="#" class="footer__link">
+										Behefits
+									</a>
+									<a href="#" class="footer__link">
+										Pricing
+									</a>
+									<a href="#" class="footer__link">
+										Blog
+									</a>
+									<a href="#" class="footer__link">
+										Contact us
+									</a>
+									<a href="#" class="footer__link">
+										Book a demo
+									</a>
+								</div>
+							</div>
+							<div data-da=".footer__col--two, 599.98" class="footer__col">
+								<div class="footer__col-title">
+									Account
+								</div>
+								<ul class="footer__col-list">
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											Sign-up 1.
+										</a>
+									</li>
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											Log in
+										</a>
+									</li>
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											Account
+										</a>
+									</li>
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											Payment hst.
+										</a>
+									</li>
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											Get started
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div data-da=".footer__col--first, 599.98" class="footer__col">
+								<div class="footer__col-title">
+									Company
+								</div>
+								<ul class="footer__col-list">
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											About us
+										</a>
+									</li>
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											Careers
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20231203123111"></script>
+</body>
+
+</html>

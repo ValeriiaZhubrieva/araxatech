@@ -1670,6 +1670,12 @@ body ::-webkit-scrollbar {
   gap: 1.875rem;
 }
 
+.api-section__row picture {
+  display: block;
+  max-width: 20.0625rem;
+  width: 100%;
+}
+
 .api-section__row img {
   display: block;
   max-width: 20.0625rem;

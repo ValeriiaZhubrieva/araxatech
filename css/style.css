@@ -1603,6 +1603,8 @@ body {
 
 .api-section__inner code ul li {
   list-style: none;
+  font-size: 14px;
+  line-height: 1.1;
 }
 
 .api-section__inner p:not(:last-child) {
@@ -3259,6 +3261,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     min-height: 100vh;
   }
 
+  .api-section__inner code ul li {
+    font-size: 13px;
+  }
+
   .api-section__novigation {
     left: 0.1875rem;
     width: calc(100% - 0.375rem);
@@ -3651,6 +3657,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 @media (max-width: 22.49875em) {
   .information-tabs__title {
     padding: 0.75rem;
+  }
+
+  .api-section__inner code ul li {
+    font-size: 12px;
   }
 }
 

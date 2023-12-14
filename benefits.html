@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Ubuntu:wght@700&display=swap&_v=20231214190757" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.min.css?_v=20231214190757">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header  ">
+			<div class="header__container">
+				<div class="header__body">
+					<a href="#" class="header__logo">
+						<img src="img/logo.svg" alt="logo">
+					</a>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<div class="menu__bigmenu bigmenu">
+								<button type="button" class="bigmenu__button">
+									Nautilus
+								</button>
+								<div class="bigmenu__dropdown">
+									<ul class="bigmenu__list">
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												Overview
+											</a>
+										</li>
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												Reports
+											</a>
+										</li>
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												Startups
+											</a>
+										</li>
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												Benefits
+											</a>
+										</li>
+										<li class="bigmenu__item">
+
+										</li>
+									</ul>
+									<ul class="bigmenu__list">
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												TX Browser
+											</a>
+										</li>
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												Expansion
+											</a>
+										</li>
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												Technology
+											</a>
+										</li>
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												Simulator
+											</a>
+										</li>
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												Migration
+											</a>
+										</li>
+									</ul>
+									<ul class="bigmenu__list">
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												API
+											</a>
+										</li>
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												Test Engine
+											</a>
+										</li>
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												WL Wallets
+											</a>
+										</li>
+										<li class="bigmenu__item">
+											<a href="#" class="bigmenu__link">
+												Abstraction
+											</a>
+										</li>
+										<li class="bigmenu__item">
+
+										</li>
+									</ul>
+								</div>
+							</div>
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="#" class="menu__link">
+										Startups Acc.
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">
+										Pricing
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">
+										Blog
+									</a>
+								</li>
+								<li class="menu__item">
+									<button type="button" class="menu__link menu__btn-arrow">
+										Company
+									</button>
+									<div class="menu__dropdown submenu">
+										<ul class="submenu__list">
+											<li class="submenu__item">
+												<a href="#" class="submenu__link">
+													About us
+												</a>
+											</li>
+											<li class="submenu__item">
+												<a href="#" class="submenu__link">
+													Careers
+												</a>
+											</li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<a href="#" class="menu__link-demo">
+								Book a Demo
+							</a>
+							<div class="menu__user user-block">
+								<button type="button" class="user-block__btn">
+									<span class="user-block__icon">
+										<svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M5.99959 6.0921C5.17153 6.0921 4.46433 5.79894 3.878 5.21262C3.29168 4.62629 2.99852 3.9191 2.99852 3.09103C2.99852 2.26296 3.29168 1.55648 3.878 0.971583C4.46433 0.386686 5.17153 0.0942383 5.99959 0.0942383C6.82766 0.0942383 7.53486 0.386686 8.12118 0.971583C8.70751 1.55648 9.00067 2.26296 9.00067 3.09103C9.00067 3.9191 8.70751 4.62629 8.12118 5.21262C7.53486 5.79894 6.82766 6.0921 5.99959 6.0921ZM0.142578 12.0942V9.94141C0.142578 9.51035 0.254097 9.11416 0.477134 8.75282C0.700159 8.39149 0.996468 8.11574 1.36606 7.92557C2.11238 7.55383 2.87196 7.27432 3.64482 7.08703C4.41767 6.89973 5.2026 6.80609 5.99959 6.80609C6.80205 6.80609 7.58976 6.89902 8.36272 7.08488C9.1357 7.27076 9.8925 7.54956 10.6331 7.9213C11.0027 8.11106 11.299 8.38622 11.5221 8.74675C11.7451 9.10731 11.8566 9.50545 11.8566 9.94118V12.0942H0.142578Z" fill="white" />
+										</svg>
+									</span>
+									<span class="user-block__lines">
+										<svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M1.86426 12.2895V10.7729H14.1353V12.2895H1.86426ZM1.86426 8.85257V7.3359H14.1353V8.85257H1.86426ZM1.86426 5.41562V3.89894H14.1353V5.41562H1.86426Z" fill="white" />
+										</svg>
+									</span>
+								</button>
+								<div class="user-block__dropdown">
+									<ul class="user-block__list">
+										<li class="user-block__item">
+											<a href="#" class="user-block__link user-block__link--arrow">
+												Sign-up
+											</a>
+										</li>
+										<li class="user-block__item">
+											<a href="#" class="user-block__link">
+												Log in
+											</a>
+										</li>
+										<li class="user-block__item">
+											<a href="#" class="user-block__link">
+												Account
+											</a>
+										</li>
+										<li class="user-block__item">
+											<a href="#" class="user-block__link">
+												Payment hst.
+											</a>
+										</li>
+										<li class="user-block__item">
+											<a href="#" class="user-block__link">
+												Get Started
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</nav>
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="innerpage benefits">
+			<div class="innerpage__top">
+				<div class="innerpage__head">
+					<div class="innerpage__container">
+						<div class="innerpage__breadcrumbs breadcrumbs">
+							<a href="#" class="breadcrumbs__link">Home</a>
+							<a href="#" class="breadcrumbs__link">Nautilus</a>
+							<span class="breadcrumbs__current">Benefits</span>
+						</div>
+					</div>
+				</div>
+				<div class="innerpage__container">
+					<h1 class="innerpage__title">
+						Benefits with Araxatech Nautilus
+					</h1>
+				</div>
+			</div>
+			<div class="benefits__inner">
+				<div class="benefits__container">
+					<h2 class="benefits__title">Why Nautilus</h2>
+					<div class="benefits__items">
+						<div class="benefits__item item-benefits">
+							<div class="item-benefits__info">
+								<div class="item-benefits__img">
+									<img src="img/benefits/benefits-item-1.svg" alt="benefits-item">
+								</div>
+								<div class="item-benefits__title">Reduced Development costs</div>
+							</div>
+							<div class="item-benefits__text">
+								<p>
+									When using Nautilus for development, a payment processor or BIN sponsor are not required. <a href="#"><sup>*</sup>contains a link</a> That, combined with the fact that Nautilus’ subscription cost is much cheaper than the subscription for a payment processor, makes Nautilus an ideal choice for startups.
+								</p>
+							</div>
+						</div>
+						<div class="benefits__item item-benefits">
+							<div class="item-benefits__info">
+								<div class="item-benefits__img">
+									<img src="img/benefits/benefits-item-2.svg" alt="benefits-item">
+								</div>
+								<div class="item-benefits__title">Quick to start development</div>
+							</div>
+							<div class="item-benefits__text">
+								<p>Nautilus includes everything one needs to start developing payment cards integration into the wallet. Its transaction data structures do not depend on a payment processor so there is no need to have one to start with.</p>
+							</div>
+						</div>
+						<div class="benefits__item item-benefits">
+							<div class="item-benefits__info">
+								<div class="item-benefits__img">
+									<img src="img/benefits/benefits-item-3.svg" alt="benefits-item">
+								</div>
+								<div class="item-benefits__title">Faster to the market</div>
+							</div>
+							<div class="item-benefits__text">
+								<p>Simplified interface for delivering transaction data, built following the principle of least surprises ensures a smooth experience for the developer while integrating with Nautilus. The same principle also helps less experienced developers while working on the card integration simplifying the learning curve.</p>
+							</div>
+						</div>
+						<div class="benefits__item item-benefits">
+							<div class="item-benefits__info">
+								<div class="item-benefits__img">
+									<img src="img/benefits/benefits-item-4.svg" alt="benefits-item">
+								</div>
+								<div class="item-benefits__title">Startups: keep bigger share of your company</div>
+							</div>
+							<div class="item-benefits__text">
+								<p>Since Nautilus is drastically reducing expenses required to reach a demonstratable version of your product, you can take investors once your product is much closer to the finish line, allowing you to get more money for a smaller part of your company.</p>
+							</div>
+						</div>
+						<div class="benefits__item item-benefits">
+							<div class="item-benefits__info">
+								<div class="item-benefits__img">
+									<img src="img/benefits/benefits-item-5.svg" alt="benefits-item">
+								</div>
+								<div class="item-benefits__title">No real cards/money for testing</div>
+							</div>
+							<div class="item-benefits__text">
+								<p>The current practice when it comes to testing transaction data handling is to get a few live cards from a payment processor, load small amount of money to them and to have a member of your team visit nearby coffee places or ATMs, while other members are trying to monitor how the wallet is handling each of these transactions.</p>
+							</div>
+						</div>
+						<div class="benefits__item item-benefits">
+							<div class="item-benefits__info">
+								<div class="item-benefits__img">
+									<img src="img/benefits/benefits-item-6.svg" alt="benefits-item">
+								</div>
+								<div class="item-benefits__title">Decoupling from payment processor increases wallet quality</div>
+							</div>
+							<div class="item-benefits__text">
+								<p>Since Nautilus removes dependencies on payment processors from transaction handling code, it immediately removes all payment processor-specific handling from the wallet, making it easier to maintain and understand.</p>
+							</div>
+						</div>
+						<div class="benefits__item item-benefits">
+							<div class="item-benefits__info">
+								<div class="item-benefits__img">
+									<img src="img/benefits/benefits-item-7.svg" alt="benefits-item">
+								</div>
+								<div class="item-benefits__title">Remove financial errors with extensive testing</div>
+							</div>
+							<div class="item-benefits__text">
+								<p>The more a wallet is tested the more you feel confident about its capabilities and behavior. Since testing in Nautilus doesn’t require real money, there are no excuses to leave the wallet untested.</p>
+							</div>
+						</div>
+						<div class="benefits__item item-benefits">
+							<div class="item-benefits__info">
+								<div class="item-benefits__img">
+									<img src="img/benefits/benefits-item-8.svg" alt="benefits-item">
+								</div>
+								<div class="item-benefits__title">No maintenance</div>
+							</div>
+							<div class="item-benefits__text">
+								<p>Once you integrate with Nautilus you don’t have to worry about transaction data integration with payment processors anymore. Any future interface changes are handled by us and they are completely invisible to you.</p>
+							</div>
+						</div>
+						<div class="benefits__item item-benefits">
+							<div class="item-benefits__info">
+								<div class="item-benefits__img">
+									<img src="img/benefits/benefits-item-1.svg" alt="benefits-item">
+								</div>
+								<div class="item-benefits__title">Reduced Development costs</div>
+							</div>
+							<div class="item-benefits__text">
+								<p>When using Nautilus for development, a payment processor or BIN sponsor are not required. That, combined with the fact that Nautilus’ subscription cost is much cheaper than the subscription for a payment processor, makes Nautilus an ideal choice for startups.</p>
+							</div>
+						</div>
+						<div class="benefits__item item-benefits">
+							<div class="item-benefits__info">
+								<div class="item-benefits__img">
+									<img src="img/benefits/benefits-item-1.svg" alt="benefits-item">
+								</div>
+								<div class="item-benefits__title">Reduced Development costs</div>
+							</div>
+							<div class="item-benefits__text">
+								<p>
+									When using Nautilus for development, a payment processor or BIN sponsor are not required. That, combined with the fact that Nautilus’ subscription cost is much cheaper than the subscription for a payment processor, makes Nautilus an ideal choice for startups.
+								</p>
+							</div>
+						</div>
+						<div class="benefits__item item-benefits">
+							<div class="item-benefits__info">
+								<div class="item-benefits__img">
+									<img src="img/benefits/benefits-item-2.svg" alt="benefits-item">
+								</div>
+								<div class="item-benefits__title">Quick to start development</div>
+							</div>
+							<div class="item-benefits__text">
+								<p>Nautilus includes everything one needs to start developing payment cards integration into the wallet. Its transaction data structures do not depend on a payment processor so there is no need to have one to start with.</p>
+							</div>
+						</div>
+						<div class="benefits__item item-benefits">
+							<div class="item-benefits__info">
+								<div class="item-benefits__img">
+									<img src="img/benefits/benefits-item-3.svg" alt="benefits-item">
+								</div>
+								<div class="item-benefits__title">Faster to the market</div>
+							</div>
+							<div class="item-benefits__text">
+								<p>Simplified interface for delivering transaction data, built following the principle of least surprises ensures a smooth experience for the developer while integrating with Nautilus. The same principle also helps less experienced developers while working on the card integration simplifying the learning curve.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__bottom">
+				<div class="footer__container">
+					<div class="footer__body">
+						<a href="#" class="footer__logo">
+							<img src="img/logo.svg" alt="logo">
+						</a>
+						<div class="footer__columns">
+							<div class="footer__col footer__col--first">
+								<div class="footer__col-title">
+									Nautilus
+								</div>
+								<ul class="footer__col-list">
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											Overview
+										</a>
+									</li>
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											Behefits
+										</a>
+									</li>
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											Technology
+										</a>
+									</li>
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											API
+										</a>
+									</li>
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											Reports
+										</a>
+									</li>
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											TX Browser
+										</a>
+									</li>
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											Simulator
+										</a>
+									</li>
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											Test Engine
+										</a>
+									</li>
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											Abstraction
+										</a>
+									</li>
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											Startups
+										</a>
+									</li>
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											Expansion
+										</a>
+									</li>
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											Migration
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="footer__col footer__col--two">
+								<div class="footer__col-title">
+									Startup Acc.
+								</div>
+								<div class="footer__links">
+									<a href="#" class="footer__link">
+										Behefits
+									</a>
+									<a href="#" class="footer__link">
+										Pricing
+									</a>
+									<a href="#" class="footer__link">
+										Blog
+									</a>
+									<a href="#" class="footer__link">
+										Contact us
+									</a>
+									<a href="#" class="footer__link">
+										Book a demo
+									</a>
+								</div>
+							</div>
+							<div data-da=".footer__col--two, 599.98" class="footer__col">
+								<div class="footer__col-title">
+									Account
+								</div>
+								<ul class="footer__col-list">
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											Sign-up 1.
+										</a>
+									</li>
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											Log in
+										</a>
+									</li>
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											Account
+										</a>
+									</li>
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											Payment hst.
+										</a>
+									</li>
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											Get started
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div data-da=".footer__col--first, 599.98" class="footer__col">
+								<div class="footer__col-title">
+									Company
+								</div>
+								<ul class="footer__col-list">
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											About us
+										</a>
+									</li>
+									<li class="footer__col-item">
+										<a href="#" class="footer__col-link">
+											Careers
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20231214190757"></script>
+</body>
+
+</html>

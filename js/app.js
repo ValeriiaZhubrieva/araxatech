@@ -4211,7 +4211,7 @@
             });
         }
         function initSliders() {
-            if (document.querySelector(".api-section__slider")) new Swiper(".api-section__slider", {
+            if (document.querySelector(".info-section__slider")) new Swiper(".info-section__slider", {
                 modules: [ Navigation ],
                 observer: true,
                 observeParents: true,
@@ -4219,8 +4219,8 @@
                 spaceBetween: 16,
                 speed: 800,
                 navigation: {
-                    prevEl: ".api-section__slider-block .swiper-button-prev",
-                    nextEl: ".api-section__slider-block .swiper-button-next"
+                    prevEl: ".info-section__slider-block .swiper-button-prev",
+                    nextEl: ".info-section__slider-block .swiper-button-next"
                 },
                 breakpoints: {
                     319: {
@@ -6638,7 +6638,7 @@ PERFORMANCE OF THIS SOFTWARE.
         dropDownActiv(".menu__btn-arrow", ".menu__item", "submenu-open");
         dropDownActiv(".user-block__btn", ".user-block", "user-block-open");
         function buildLocalNavigation() {
-            const sections = document.querySelectorAll(".api-section");
+            const sections = document.querySelectorAll(".info-section");
             window.addEventListener("scroll", (function() {
                 let offset = 80;
                 let scroll_y = window.pageYOffset + offset;
@@ -6651,7 +6651,7 @@ PERFORMANCE OF THIS SOFTWARE.
                 }));
             }));
         }
-        if (document.querySelectorAll(".api-section").length > 0 && document.querySelectorAll(".aside-block__link").length > 0) buildLocalNavigation();
+        if (document.querySelectorAll(".info-section").length > 0 && document.querySelectorAll(".aside-block__link").length > 0) buildLocalNavigation();
         isWebp();
         addTouchClass();
         menuInit();

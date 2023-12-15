@@ -2016,8 +2016,8 @@ body {
   color: #000;
   border-radius: 1rem;
   min-height: 18.75rem;
-  background: -webkit-gradient(linear, left top, right top, from(#60c6f2), color-stop(38%, #153d8b));
-  background: linear-gradient(90deg, #60c6f2 0%, #153d8b 38%);
+  background: -webkit-gradient(linear, left top, right top, from(rgba(119, 206, 244, 0.38)), to(rgba(119, 139, 179, 0.38)));
+  background: linear-gradient(90deg, rgba(119, 206, 244, 0.38) 0%, rgba(119, 139, 179, 0.38) 100%);
   overflow: hidden;
   position: relative;
   cursor: pointer;
